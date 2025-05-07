@@ -11,7 +11,7 @@ A Spring Boot application for managing appointments between clients and speciali
 
 ## Overview
 
-The Appointment Booking System is a web-based application designed to facilitate the scheduling of appointments between clients and specialists. It aims to offer an efficient platform for clients to book, cancel, and track appointments, while allowing specialists to manage their schedules. The system ensures real-time availability validation, conflict checking, and appointment status tracking.
+The Appointment Booking System is a web-based application designed to facilitate the scheduling of appointments between clients and doctor specialists. It aims to offer an efficient platform for clients to book, cancel, and track appointments, while allowing specialists to manage their schedules. The system ensures real-time availability validation, conflict checking, and appointment status tracking.
 
 ## Features
 
@@ -35,7 +35,7 @@ The Appointment Booking System is a web-based application designed to facilitate
 
 - **Spring Boot 3.4.4**: Framework for building the application.
 - **Spring Data JPA**: For database interaction and persistence.
-- **H2 Database**: In-memory database used for quick testing and development.
+- **H2 Database**: In-memory database for quick testing and development.
 - **Spring Web**: To handle web-related functionalities (HTTP requests, controllers).
 - **Spring Boot Actuator**: For monitoring the application health and exposing system information.
 - **Flyway**: For database migrations.
@@ -46,39 +46,11 @@ The Appointment Booking System is a web-based application designed to facilitate
 ### Requirements
 - Java 21 or higher
 - Maven 3.x
-- IntelliJ IDEA or your preferred IDE
-
-### Step-by-Step Guide to Run the Application
-
-1. **Generate the Project**:
-   - Go to [Spring Initializr](https://start.spring.io/).
-   - Choose the following settings:
-     - **Project**: Maven Project
-     - **Language**: Java
-     - **Spring Boot**: 3.4.4
-     - **Group**: com.capgemini.training
-     - **Artifact**: appointment-booking-app
-     - **Package Name**: com.capgemini.training.appointmentbooking
-     - **Packaging**: Jar
-     - **Java Version**: Select JDK 21
-
-2. **Add Dependencies**:
-   - Spring Web
-   - Lombok
-   - H2 Database
-   - Spring Data JPA
-   - Spring Boot Actuator
-   - Flyway Migration
-
-3. **Unzip the project** in a convenient directory (e.g., `C:\trainings\java-backend-developer`).
-
-4. **Import the Project** into your IDE (e.g., IntelliJ IDEA).
-
-5. **Build the Project** using Maven in your IDE.
+- IntelliJ IDEA or other preferred IDE
 
 ### Configuration
 
-In the `application.properties` file, make sure to add the following configurations:
+In the `application.properties` file add the following configurations:
 
 ```properties
 # H2 Database configuration
