@@ -1,12 +1,12 @@
 # Doctor Appointment Booking App
 > A Spring Boot application for managing appointments between clients and specialists — featuring scheduling, availability checks, and status tracking.
 
-## 🩺 Overview
+## Overview
 > The Appointment Booking System is a web-based application that enables clients to easily schedule, manage, and track appointments with doctor specialists. It also allows specialists to manage treatment offerings and view their appointment history. The system ensures real-time
 > availability validation and conflict detection.
 
-## ✨ Features
-### 👤 Client Features
+##  Features
+###  Client Features
 - **Browse Available Treatments** – Filter treatments by name or assigned specialist.
 - **View Treatment Details** – See treatment info and available specialists.
 - **Book Appointments** – Schedule new appointments with conflict validation.
@@ -14,12 +14,12 @@
 - **Cancel Appointments** – Cancel upcoming visits.
 - **View Appointment History** – List of completed and canceled appointments.
 
-###🧑‍⚕️ Specialist Features
+### Specialist Features
 - **Create Treatments** – Add new treatments with details like name and duration.
 - **Mark Appointments as Completed** – Update appointment status after service.
 - **View Appointment History** – Access all past appointments.
 
-###⚠️ Conflict Detection
+### Conflict Detection
 - **Schedule Validation** – Prevent overlapping appointments during booking.
 
 ## 🛠️ Technologies Used
@@ -31,13 +31,13 @@
 - **Flyway** – Database versioning and migrations.
 - **Lombok** – Reduces boilerplate Java code.
 
-## 🚀 Project Setup
-### ✅ Requirements
+## Project Setup
+### Requirements
 - Java 21+
 - Maven 3.x
 - IntelliJ IDEA or another IDE
 
-### ⚙️ Configuration
+### Configuration
 In `application.properties`:
 
 <pre> # H2 Database
@@ -56,8 +56,8 @@ spring.flyway.locations=classpath:db/migration
 spring.flyway.enabled=true
 spring.flyway.clean-on-validation-error=true </pre>
 
-##📦 Git Workflow & Release Strategy
-###📁 Branching Model
+## Git Workflow & Release Strategy
+### Branching Model
 This project uses a simplified Git Flow strategy:
 - `main`: production-ready code
 - `develop`: integration of ongoing features
